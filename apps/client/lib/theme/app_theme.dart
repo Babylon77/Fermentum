@@ -79,4 +79,3 @@ ThemeData buildFermentumTheme() {
     ),
   );
 }
-
