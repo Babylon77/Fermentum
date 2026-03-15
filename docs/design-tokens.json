@@ -1,0 +1,99 @@
+{
+  "theme": "cyberpunk-mission-command",
+  "color": {
+    "background": {
+      "canvas": "#070B11",
+      "shell": "#0B1220",
+      "gridOverlay": "#122034"
+    },
+    "surface": {
+      "base": "#0F1726",
+      "panel": "#131D2E",
+      "elevated": "#182437",
+      "input": "#0D1624",
+      "muted": "#0A111C"
+    },
+    "border": {
+      "subtle": "#22324A",
+      "default": "#2B4263",
+      "strong": "#3A5A85",
+      "focus": "#37D7FF"
+    },
+    "text": {
+      "primary": "#E6F0FF",
+      "secondary": "#9CB3CC",
+      "muted": "#6E8197",
+      "inverse": "#07111B"
+    },
+    "accent": {
+      "primary": "#37D7FF",
+      "primaryHover": "#62E1FF",
+      "secondary": "#FFB84D",
+      "secondaryHover": "#FFC76E"
+    },
+    "status": {
+      "success": "#3DDB8B",
+      "warning": "#FFB84D",
+      "error": "#FF5D73",
+      "info": "#59A8FF"
+    },
+    "chart": {
+      "seriesA": "#37D7FF",
+      "seriesB": "#FFB84D",
+      "seriesC": "#3DDB8B",
+      "seriesD": "#B784FF",
+      "grid": "#23344E"
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "xxl": 32
+  },
+  "radius": {
+    "sm": 6,
+    "md": 10,
+    "lg": 14
+  },
+  "stroke": {
+    "thin": 1,
+    "thick": 2
+  },
+  "shadow": {
+    "panel": "0 10 30 rgba(0, 0, 0, 0.28)",
+    "focusGlow": "0 0 0 1 rgba(55, 215, 255, 0.7), 0 0 18 rgba(55, 215, 255, 0.18)"
+  },
+  "typography": {
+    "display": {
+      "family": "Rajdhani",
+      "weight": 600
+    },
+    "body": {
+      "family": "IBM Plex Sans",
+      "weight": 400
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "weight": 500
+    }
+  },
+  "component": {
+    "button": {
+      "height": {
+        "compact": 36,
+        "default": 44,
+        "large": 52
+      }
+    },
+    "input": {
+      "height": 44
+    },
+    "panel": {
+      "headerHeight": 44
+    }
+  }
+}
+

@@ -1,0 +1,8 @@
+name: shared_models
+description: Shared models for Fermentum
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+

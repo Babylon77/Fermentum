@@ -1,0 +1,4 @@
+[workspace]
+members = ["packages/brewing-core"]
+resolver = "2"
+

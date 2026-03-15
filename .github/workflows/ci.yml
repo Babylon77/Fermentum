@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  repo-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate repository structure
+        shell: bash
+        run: |
+          test -f AGENTS.md
+          test -f README.md
+          test -f CONTRIBUTING.md
+          test -f DEVELOPMENT.md
+          test -f docs/product-plan.md
+          test -f docs/architecture.md
+          test -f docs/domain-model.md
+          test -f docs/database-schema.md
+          test -f docs/engineering-process.md
+          test -f docs/style-guide.md
+          test -f docs/design-tokens.json
+          test -f docs/adr/README.md
+          test -d apps/client
+          test -d packages/brewing-core
+          test -d packages/shared-models
+      - name: Future code checks placeholder
+        shell: bash
+        run: |
+          echo "Add Flutter, Rust, and schema validation commands as the codebase is scaffolded."
+
